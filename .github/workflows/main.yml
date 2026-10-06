@@ -16,4 +16,12 @@ jobs:
         run: | 
           echo "This is DevOps Faaiq"   
           uname -a
-   
+          
+      - name: Check the docker installation
+        run: | 
+          docker
+          docker images
+      - name: Run Docker Container
+        run: |
+          docker run hello-world
+      
