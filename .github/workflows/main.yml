@@ -10,3 +10,9 @@ jobs:
 
 steps: 
    - uses: actions/checkout@v4
+
+   -name: My first step
+   run: | 
+    echo "This is DevOps Faaiq"
+    uname -a
+   
